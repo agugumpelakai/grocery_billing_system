@@ -23,7 +23,7 @@ while True:
     print("====Grocery Billing system====")
     print("1.AddItem")
     print("2. Show Cart")
-    print("3. Caclulate total")
+    print("3. Culculate total")
     print("4. Exit")
 
     choice = input("Enter Choice: ")
@@ -32,7 +32,7 @@ while True:
     elif choice =="2":
         show_cart()
     elif choice =="3":
-        calculate_total()
+        culculate_total()
     elif choice =="4":
         print("Thank you for shopping")
         break
